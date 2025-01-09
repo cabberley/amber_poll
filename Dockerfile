@@ -3,14 +3,14 @@ FROM python:3.13.1-alpine3.20
 WORKDIR /opt/amber
 
 RUN apk add --no-cache supercronic \
-    && addgroup -S amber && adduser -S amber -G amber \
+    && addgroup -S chris && adduser -S chris -G chris \
     && mkdir -p data \
     && mkdir -p config \
     && chown amber:amber data \
     && apk --no-cache upgrade \
     && apk add --no-cache tzdata
 
-USER amber
+USER chris
 
 COPY . .
 
