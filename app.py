@@ -23,8 +23,9 @@ if config["Log_database"]["log_amber_5min_forecasts"].lower() == "true":
 amberEstimatePrice = True
 
 
-#logs = dl.DataLog()
+
 if log_5min_values:
+    logs = dl.DataLog()
     logs.create_table_amber()
     logs.conn.close() # .close_connection()
 
