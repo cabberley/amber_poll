@@ -1,0 +1,23 @@
+{
+    "amber": {
+        "site_id" : "yourambersiteid",
+        "access_token": "accesstoken/bearer",
+        "amber5minPrice_seconds": "15,20,25,28,30,32,35,40,45,50,55",
+        "amber5minPrice_minutes": "0-1,5-6,10-11,15-16,20-21,25-26,30-31,35-36,40-41,45-46,50-51,55-56"
+    },
+    "home_assistant": {
+        "url": "http://your home assistant:8123",
+        "access_token": "long lived HASS Token",
+        "amber_5min_general_price_entity": "sensor.amber_5min_general_current_price_new" ,
+        "amber_5min_feedin_price_entity": "sensor.amber_5min_feed_in_current_price_new",
+        "amber_5min_general_price_slots": "sensor.amber_5min_general_slot_",
+        "amber_5min_feedin_price_slots": "sensor.amber_5min_feed_in_slot_"
+    },
+    "Log_database": {
+        "db_name": "./data/schedulerlog.db",
+        "log_amber_5min_current_values": "True",
+        "log_amber_5min_forecasts": "True"
+
+    }
+
+}
