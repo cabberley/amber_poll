@@ -26,7 +26,7 @@ amberEstimatePrice = True
 #logs = dl.DataLog()
 if log_5min_values:
     logs.create_table_amber()
-logs.conn.close() # .close_connection()
+    logs.conn.close() # .close_connection()
 
 
 def amberResetEstimatePrice():
