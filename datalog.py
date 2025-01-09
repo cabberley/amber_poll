@@ -5,7 +5,7 @@ import sqlite3
 import utils as ut
 
 
-with open("./config/config.json", "r") as f:
+with open("/opt/amber/config/config.json", "r") as f:
     config = json.load(f)
 
 class DataLog:
