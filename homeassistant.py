@@ -4,7 +4,7 @@ import json
 import requests
 import utils as ut
 
-with open("./config/config.json", "rt", encoding="utf-8") as f:
+with open("/opt/amber/config/config.json", "rt", encoding="utf-8") as f:
     config = json.load(f)
 
 amber_5min_general_price_entity = config["home_assistant"]["amber_5min_general_price_entity"]
