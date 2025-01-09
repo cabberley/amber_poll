@@ -10,8 +10,9 @@ RUN apk add --no-cache supercronic \
     && apk --no-cache upgrade \
     && apk add --no-cache tzdata
 
-USER chris
 
+
+COPY Amberloop.py Amberloop.py 
 COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
