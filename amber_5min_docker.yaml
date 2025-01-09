@@ -1,0 +1,159 @@
+template:
+  sensor:
+    - unique_id: amber_5min_feed_in_current_price_new  
+      name: 'Amber 5min Feed_in Current Price - new'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_0  
+      name: 'Amber 5min Feed_in Slot 0'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_1
+      name: 'Amber 5min Feed_in Slot 1'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_2
+      name: 'Amber 5min Feed_in Slot 2'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_3
+      name: 'Amber 5min Feed_in Slot 3'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_4
+      name: 'Amber 5min Feed_in Slot 4'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_5
+      name: 'Amber 5min Feed_in Slot 5'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_6
+      name: 'Amber 5min Feed_in Slot 6'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_7
+      name: 'Amber 5min Feed_in Slot 7'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_8
+      name: 'Amber 5min Feed_in Slot 8'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_9
+      name: 'Amber 5min Feed_in Slot 9'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_10
+      name: 'Amber 5min Feed_in Slot 10'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_feed_in_slot_11
+      name: 'Amber 5min Feed_in Slot 11'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_current_price_new  
+      name: 'Amber 5min General Price - new'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_0
+      name: 'Amber 5min General Slot 0'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_1
+      name: 'Amber 5min General Slot 1'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_2
+      name: 'Amber 5min General Slot 2'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_3
+      name: 'Amber 5min General Slot 3'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_4
+      name: 'Amber 5min General Slot 4'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_5
+      name: 'Amber 5min General Slot 5'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_6
+      name: 'Amber 5min General Slot 6'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_7
+      name: 'Amber 5min General Slot 7'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_8
+      name: 'Amber 5min General Slot 8'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_9
+      name: 'Amber 5min General Slot 9'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_10
+      name: 'Amber 5min General Slot 10'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+    - unique_id: amber_5min_general_slot_11
+      name: 'Amber 5min General Slot 11'
+      state_class: measurement
+      unit_of_measurement: $/kWh
+      icon: mdi:currency-usd
+      state: none
+
