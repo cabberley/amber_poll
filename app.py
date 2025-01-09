@@ -6,7 +6,7 @@ import Amberloop as al
 import datalog as dl
 import homeassistant as ha
 
-with open("./config/config.json", "r") as f:
+with open("/opt/amber/config/config.json", "r") as f:
     config = json.load(f)
 
 amberSiteId = config["amber"]["site_id"]
